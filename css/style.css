@@ -2,6 +2,7 @@
     font-family: 'Work Sans', sans-serif;
     margin: 0%;
     padding: 0%;
+    font-style: normal;
 }
 header{
     padding: 50px 200px 10px;
@@ -71,11 +72,193 @@ header{
 .header-img-section{
     padding-top: 50px;
     align-items: center;
-    padding-left: 50px 10%;
+    padding: 50px;
 }
 .header-img{
     width: 100%;
+    border-radius: 10px;
 }
+
+/* ------------------------------main section------------------------------ */
+
+main{
+    padding-top: 130px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.main-top{
+    padding-left: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding-right: 50px;
+}
+.main-team{
+    height: 324px;
+    width: 324px;
+}
+.main-top-right-heading{
+    height: 106px;
+    width: 468px;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+.Quick-list{
+    color: #727272;
+}
+.of-our{
+    color: #131313;
+}
+.Features{
+    color: #FF900E;
+}
+.main-top-right-description{
+    height: 78px;
+    width: 537px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+
+/*-------------------------------- main second section------------------------- */
+
+.main-second-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+.main-second-section-left{
+    height: 982px;
+    width: 586px;
+    padding-right: 54px;
+}
+.main-second-section-header{
+    height: 106px;
+    width: 468px;
+    display: flex;
+}
+
+.span{
+    height: 106px;
+    width: 5px;
+    background-color:#FF900E;
+    margin-right: 21px;
+    border-radius: 2px;
+}
+.main-second-section-header > h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #131313;
+}
+.main-second-section-header-description{
+    height: 78px;
+    width: 586px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.container{
+    width: 586px;
+    height: 744px;
+    padding-bottom: 20px;
+}
+.container-2{
+    height: 171px;
+    width: 586px; 
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 2em #2E3436, ;
+    margin-bottom: 20px;
+}
+.container > div >h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    padding-bottom: 10px;
+    padding: 30px 0px 10px 30px;
+}
+.container-2-description{
+    padding-left: 30px;
+    height: 78px;
+    width: 514px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.main-second-section-right{
+    height: 1059px;
+    width: 800px;
+}
+.features-img{
+    height: 982px;
+    width: 708px;
+}
+.btn-secondary{
+    position: relative;
+    left: -70px;
+    top: -150px;
+    color: #FFFFFF;
+    border: 0;
+    height: 200px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.btn-secondary > h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+}
+.btn-secondary > p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+}
+.main-third-section{
+    text-align: left;
+}
+.main-third-section > h1{
+    width: 260px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.main-third-section >p{
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+
+
+
+
+
+
 
 
 /* ----------------------------------------media----------------------------------- */
@@ -91,7 +274,109 @@ header{
     .nav-bar{
         align-items: center;
         margin-top: 10px;
-        margin-bottom: 116px;
+        margin-bottom: 20px;
+    }
+    .header-heading{
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .header-title{
+        line-height: 30px;
+        font-size: 25px;
+    }
+    .header-description{
+        line-height: 20px;
+        padding: 10px 0%;
+        text-align: justify;
+    }
+    .header-img-section{
+        margin-top: 20px;
+        padding-top: 10px;
+        align-items: center;
+        padding: 0%;
+    }
+    main{
+        padding:50PX 2% 20PX;
+    }
+    .main-top{
+        margin-left: 0%;
+        flex-direction:column-reverse;
+        padding-left: 10PX;
+        padding-right: 10PX;;
+    }
+    .team-images{
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        padding-right: 10px;
+        padding-top: 20PX;
+    }
+    .main-top-right-heading , .main-top-right-description{
+        height: 100%;
+        width: 300px;
+    }
+    .main-second-section{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .main-second-section-header-description , .main-second-section-header , .main-second-section-left , .container , .container-2{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .container-2-description{
+        width: 90%;
+    }
+    .main-second-section-header > h1{
+        font-size: 30px;
+    }
+    .main-second-section-right {
+        padding-top: 20px;
+        height: 100%;
+        width: 100%;
+    }
+    .features-img{
+        padding-top: 20px;
+        height: 100%;
+        width: 100%;
+    }
+    .btn-secondary{
+        position:relative;
+        left: 100px;
+        top: 0px;
+        height: 100px;
+        align-items: center;
+    }
+    .btn-secondary > h1{
+        font-weight: 3100;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .btn-secondary > p{
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .main-third-section{
+        text-align: center;
+    }
+    .main-third-section > h1{
+        height: 40px;
+        width: 100%;
+        font-weight: 400;
+        font-weight: 500;
+        font-size: 25px;
+        color: #131313;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .main-third-section >p{
+        height: 30px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
     }
 }
 
