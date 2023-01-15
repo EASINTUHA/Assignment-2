@@ -324,6 +324,11 @@ main{
         gap: 10px;
         padding-right: 0px;
         padding-top: 20PX;
+        width: 100%;
+    }
+    .main-team{
+        height: 100%;
+        width: 100%;
     }
     .main-top-right-heading , .main-top-right-description{
         height: 100%;
