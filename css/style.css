@@ -250,7 +250,7 @@ main{
     font-size: 16px;
     line-height: 26px;
     color: #727272;
-}
+} 
 
 
 
@@ -261,8 +261,10 @@ main{
 
 
 
-/* ----------------------------------------media----------------------------------- */
+/* ------------------------------------media----------------------------------- */
+
 @media screen and (max-width:572px) {
+    
     header{
         padding: 10px 20px 20px;
     }
@@ -297,7 +299,8 @@ main{
         padding: 0%;
     }
     main{
-        padding:50PX 2% 20PX;
+        padding: 0px;
+        margin: 0px;
     }
     .main-top{
         margin-left: 0%;
