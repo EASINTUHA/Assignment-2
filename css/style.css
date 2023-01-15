@@ -337,6 +337,15 @@ main{
     .main-second-section{
         flex-direction: column;
         padding-top: 50px;
+        width: 100%;
+        margin-right: 0px;
+        padding-right: 0px;
+        overflow-y:hidden;
+    }
+    .features-img{
+        padding-top: 50px;
+        height: 100%;
+        width: 100%;
     }
     .main-second-section-header-description , .main-second-section-header , .main-second-section-left , .container , .container-2{
         width: 100%;
@@ -357,11 +366,6 @@ main{
         height: 100%;
         width: 100%;
     }
-    .features-img{
-        padding-top: 50px;
-        height: 100%;
-        width: 100%;
-    }
     .btn-secondary{
         position:relative;
         left: 100px;
@@ -370,7 +374,7 @@ main{
         align-items: center;
     }
     .btn-secondary > h1{
-        font-weight: 3100;
+        font-weight: 300;
         font-size: 30px;
         line-height: 35px;
         text-align: center;
