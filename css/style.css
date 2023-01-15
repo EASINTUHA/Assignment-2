@@ -318,7 +318,7 @@ main{
         margin-left: 0%;
         flex-direction:column-reverse;
         padding-left: 0PX;
-        padding-right: 0px;;
+        padding-right: 0px;
     }
     .team-images{
        grid-template-columns: repeat(1,1fr);
@@ -331,7 +331,15 @@ main{
         height: 100%;
         width: 100%;
     }
-    .main-top-right-heading , .main-top-right-description{
+    .main-top-right-heading{
+        height: 100%;
+        width: 76%;
+        font-size: 25px;
+        padding: 0px;
+        margin: 0px;
+
+    }
+    .main-top-right-description{
         height: 100%;
         width: 100%;
     }
@@ -349,7 +357,7 @@ main{
         width: 100%;
     }
     .main-second-section-header-description , .main-second-section-header , .main-second-section-left , .container , .container-2{
-        width: 100%;
+        width: 97%;
         padding-right: 0px;
     }
     .main-second-section-left{
@@ -415,7 +423,9 @@ main{
         font-size: 16px;
         color: #727272;
     }
-    
+    .hide{
+        display: none;
+    }
 }
 
 
