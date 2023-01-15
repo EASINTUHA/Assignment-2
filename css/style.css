@@ -342,6 +342,10 @@ main{
     }
     .main-second-section-header > h1{
         font-size: 30px;
+        width: 90%;
+    }
+    .main-second-section-header-description{
+    width: 80%;       
     }
     .main-second-section-right {
         padding-top: 20px;
