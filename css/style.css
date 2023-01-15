@@ -303,19 +303,21 @@ main{
         padding: 0%;
     }
     main{
-        margin:auto;
-        padding:auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .main-top{
         margin-left: 0%;
         flex-direction:column-reverse;
-        padding-left: 10PX;
-        padding-right: 10PX;;
+        padding-left: 0PX;
+        padding-right: 0px;;
     }
     .team-images{
-        grid-template-columns: repeat(1,1fr);
+       grid-template-columns: repeat(1,1fr);
         gap: 10px;
-        padding-right: 10px;
+        padding-right: 0px;
         padding-top: 20PX;
     }
     .main-top-right-heading , .main-top-right-description{
@@ -342,7 +344,7 @@ main{
         width: 100%;
     }
     .features-img{
-        padding-top: 20px;
+        padding-top: 50px;
         height: 100%;
         width: 100%;
     }
